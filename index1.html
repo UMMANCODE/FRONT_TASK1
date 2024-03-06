@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <h1 id="h1">Application form</h1>
+    <form action="/submit" method="POST">
+      <label for="ad">Ad:</label><br />
+      <input class="long" type="text" id="ad" name="ad" required /><br /><br />
+
+      <label for="soyad">Soyad:</label><br />
+      <input
+        class="long"
+        type="text"
+        id="soyad"
+        name="soyad"
+        required
+      /><br /><br />
+
+      <label for="Sifre">Şifre:</label><br />
+      <input
+        class="long"
+        type="password"
+        id="Sifre"
+        name="Sifre"
+        required
+      /><br /><br />
+
+      <label for="Cins">Cinsinizi seçin:</label><br />
+      <div>
+        <label for="kisi">K</label>
+        <input type="radio" id="kisi" name="Cins" value="kisi" required />
+      </div>
+      <div>
+        <label id="label" for="qadin">Q</label>
+        <input
+          type="radio"
+          id="qadin"
+          name="Cins"
+          value="qadin"
+          required
+        /><br /><br />
+      </div>
+
+      <label for="tehsil">Bitirdiyiniz tehsil derecesini seçin:</label><br />
+      <input type="checkbox" id="Orta" name="tehsil" value="Orta" />
+      <label for="Orta">Orta</label><br />
+      <input type="checkbox" id="Bakalavr" name="tehsil" value="Bakalavr" />
+      <label for="Bakalavr">Bakalavr</label><br />
+      <input type="checkbox" id="Magistr" name="tehsil" value="Magistr" />
+      <label for="Magistr">Magistr</label><br />
+      <input type="checkbox" id="Doctor" name="tehsil" value="Doctor" />
+      <label for="Doctor">Doctor</label><br /><br />
+
+      <label for="yas">Yaş:</label><br />
+      <input
+        class="short"
+        type="number"
+        id="yas"
+        name="yas"
+        required
+      /><br /><br />
+
+      <label for="boy">Boy:</label><br />
+      <input
+        class="short"
+        type="number"
+        id="boy"
+        name="boy"
+        required
+      /><br /><br />
+
+      <label for="ceki">Çəki:</label><br />
+      <input
+        class="short"
+        type="number"
+        id="ceki"
+        name="ceki"
+        required
+      /><br /><br />
+
+      <input type="submit" id="submitBtn" name="submit" value="Təsdiqlə" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+#div1 {
+  color: azure;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgb(18, 221, 184);
+  height: 200px;
+  border: 1px solid blue;
+}
+#div2 {
+  color: gray;
+  background-color: azure;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  border: 1px solid blue;
+}
+
+#div2 > p,
+#div2 > h2 {
+  text-align: center;
+}
+
+#div2 > p {
+  width: 500px;
+  padding-bottom: 120px;
+}
+
+#div2 > h2 {
+  width: 400px;
+  padding-top: 120px;
+}
+
+#div3 {
+    background-color: rgb(11, 43, 33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+}
+
+#html, #css, #more {
+    text-align:center;
+    width: 300px;
+    font-family: sans-serif;
+}
